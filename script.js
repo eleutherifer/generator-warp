@@ -24,14 +24,16 @@ function generateRandomEndpoint() {
     }
 
     const serverMap = {
-		'PL': 'pl.tribukvy.ltd',     // Польша  
-		'DE': 'de.tribukvy.ltd',     // Германия
-		'RU': 'ru0.tribukvy.ltd',    // Россия
-		'EE': 'ee.tribukvy.ltd',     // Эстония ---
-        'NL': 'nl.tribukvy.ltd',  	 // Нидерланды
-        'FL': 'fi.tribukvy.ltd',  	 // Финляндия
-		'LV': 'lv.tribukvy.ltd',  	 // Латвия
-		'US': 'usa.tribukvy.ltd'  	 // США ---
+		'ltePL': 'mpl.tribukvy.ltd',      // Польша LTE
+		'lteFL': 'mfi.tribukvy.ltd',   	  // Финляндия LTE
+		'PL': 'pl.tribukvy.ltd',   		  // Польша
+		'DE': 'de.tribukvy.ltd',    	  // Германия
+		'RU': 'ru0.tribukvy.ltd',  		  // Россия
+		'EE': 'ee.tribukvy.ltd',    	  // Эстония ---
+        'NL': 'nl.tribukvy.ltd',  		  // Нидерланды
+        'FL': 'fi.tribukvy.ltd',  		  // Финляндия
+		'LV': 'lv.tribukvy.ltd',  		  // Латвия
+		'US': 'usa.tribukvy.ltd'  		  // США ---
     };
     
     const endpoint = serverMap[selectedServer] || 'pl.tribukvy.ltd';
@@ -59,12 +61,15 @@ function getConfigPrefix() {
     }
     
     const serverPrefixMap = {
-        'PL': 'pl',
+        'ltePL': 'ltep',
+		'lteFL': 'ltef',	
+		'PL': 'pl',
         'DE': 'de',
         'RU': 'ru',
         'EE': 'ee',
         'NL': 'nl',
         'FL': 'fl',
+		'LV': 'lv',
         'US': 'us'
     };
     
@@ -488,6 +493,15 @@ rules:
 - name: "🇱🇻 LV"
   <<: [ *warp-common, *awg ]
   server: lv.tribukvy.ltd
+  port: 500
+  
+- name: "[LTE] 🇵🇱 PL"
+  <<: [ *warp-common, *awg ]
+  server: mpl.tribukvy.ltd
+  port: 500
+- name: "[LTE] 🇫🇮 FI"
+  <<: [ *warp-common, *awg ]
+  server: mfi.tribukvy.ltd
   port: 500`;
 			proxyg = `proxy-groups:
 - name: WARP + llimonix
@@ -503,6 +517,8 @@ rules:
     - "🇷🇺 RU"
     - "🇱🇻 LV"
     - "🇩🇪 DE"
+    - "[LTE] 🇵🇱 PL"
+    - "[LTE] 🇫🇮 FI"
   url: 'http://speed.cloudflare.com/'
   interval: 300
 rules:
