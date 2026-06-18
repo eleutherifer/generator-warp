@@ -104,8 +104,8 @@ button.button--loading {
 }
 
 .button--loading .button__text {display: none;}
-#generateButton1,#generateButton2 {background: linear-gradient(90deg, #eeac43, #f15874);}
-#generateButton3,#generateButton4,#generateButton5 {
+#generateButton1,#generateButton2, #generateButton4 {background: linear-gradient(90deg, #eeac43, #f15874);}
+#generateButton3,#generateButton5,#generateButton6 {
 	background: linear-gradient(90deg, #eeac43, #f15874);
 	margin-bottom: 6px;
 }
@@ -370,6 +370,7 @@ button:disabled {
 #info2 {
 	font-size: 15px;
 	padding-top: 10px;
+	padding-bottom: 30px;
 	text-align: center;}
 
 button, 
@@ -425,8 +426,8 @@ label,
     background-color: rgba(0,0,0,0.4);
 }
 
-#wiresock {margin-top: -140px;grid-column: 2;}
-#awg {margin-top: 15px;}
+#wiresock {margin-top: -96px;grid-column: 2;}
+#awg {margin-top: 35px;}
 .toggle {
 	display: inline-block;
 	padding-top: 5px;
