@@ -549,7 +549,7 @@ Clash.addEventListener('click', async () => {
     - "Стандартный 1"
     - "Стандартный 2"
     - "Стандартный 3"
-    ${msqg}	
+    ${msqg}
   url: 'http://speed.cloudflare.com/'
   interval: 300
 rules:
