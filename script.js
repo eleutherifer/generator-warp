@@ -412,7 +412,7 @@ Endpoint = ${randomEndpoint}${persistentKeepalive}`;
     showPopup('Скачивание конфигурации');
     } catch (error) {
         console.error('Error processing configuration:', error);
-showPopup('Ошибка. Подождите несколько минут или воспользуйтесь <a href="hhttps://generator-config-warp.vercel.app/" target="_blank" style="color: #fff; text-decoration: underline; font-weight: bold;">зеркалом</a>', 'error');
+showPopup('Ошибка. Подождите несколько минут или воспользуйтесь <a href="https://generator-config-warp.vercel.app/" target="_blank" style="color: #fff; text-decoration: underline; font-weight: bold;">зеркалом</a>', 'error');
     } finally {
         button.disabled = false;
         button.classList.remove("button--loading");
@@ -491,7 +491,7 @@ Endpoint = ${randomEndpoint}${persistentKeepalive}`;
     showPopup('Скачивание конфигурации');
     } catch (error) {
         console.error('Error processing configuration:', error);
-showPopup('Ошибка. Подождите несколько минут или воспользуйтесь <a href="hhttps://generator-config-warp.vercel.app/" target="_blank" style="color: #fff; text-decoration: underline; font-weight: bold;">зеркалом</a>', 'error');
+showPopup('Ошибка. Подождите несколько минут или воспользуйтесь <a href="https://generator-config-warp.vercel.app/" target="_blank" style="color: #fff; text-decoration: underline; font-weight: bold;">зеркалом</a>', 'error');
     } finally {
         button.disabled = false;
         button.classList.remove("button--loading");
@@ -695,7 +695,7 @@ ${proxyg}`;
     showPopup('Скачивание конфигурации');
     } catch (error) {
         console.error('Error processing configuration:', error);
-showPopup('Ошибка. Подождите несколько минут или воспользуйтесь <a href="hhttps://generator-config-warp.vercel.app/" target="_blank" style="color: #fff; text-decoration: underline; font-weight: bold;">зеркалом</a>', 'error');
+showPopup('Ошибка. Подождите несколько минут или воспользуйтесь <a href="https://generator-config-warp.vercel.app/" target="_blank" style="color: #fff; text-decoration: underline; font-weight: bold;">зеркалом</a>', 'error');
     } finally {
         button.disabled = false;
         button.classList.remove("button--loading");
@@ -840,7 +840,7 @@ ${proxyg}`;
     showPopup('Скачивание конфигурации');
     } catch (error) {
         console.error('Error processing configuration:', error);
-showPopup('Ошибка. Подождите несколько минут или воспользуйтесь <a href="hhttps://generator-config-warp.vercel.app/" target="_blank" style="color: #fff; text-decoration: underline; font-weight: bold;">зеркалом</a>', 'error');
+showPopup('Ошибка. Подождите несколько минут или воспользуйтесь <a href="https://generator-config-warp.vercel.app/" target="_blank" style="color: #fff; text-decoration: underline; font-weight: bold;">зеркалом</a>', 'error');
     } finally {
         button.disabled = false;
         button.classList.remove("button--loading");
@@ -923,7 +923,7 @@ Endpoint = ${randomEndpoint}${persistentKeepalive}`;
         showPopup('Скачивание конфигурации');
     } catch (error) {
         console.error('Error processing configuration:', error);
-        showPopup('Ошибка. Подождите несколько минут или воспользуйтесь <a href="hhttps://generator-config-warp.vercel.app/" target="_blank" style="color: #fff; text-decoration: underline; font-weight: bold;">зеркалом</a>', 'error');
+        showPopup('Ошибка. Подождите несколько минут или воспользуйтесь <a href="https://generator-config-warp.vercel.app/" target="_blank" style="color: #fff; text-decoration: underline; font-weight: bold;">зеркалом</a>', 'error');
     } finally {
         button.disabled = false;
         button.classList.remove("button--loading");
