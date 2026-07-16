@@ -40,16 +40,16 @@ function generateRandomEndpoint() {
     }
 
     const serverMap = {
-		'ltePL': 'mpl.tribukvy.ltd',      // Польша LTE
-		'lteFL': 'mfi.tribukvy.ltd',   	  // Финляндия LTE
-		'PL': 'pl.tribukvy.ltd',   		  // Польша
-		'DE': 'de.tribukvy.ltd',    	  // Германия
-		'RU': 'ru0.tribukvy.ltd',  		  // Россия
-		'EE': 'ee.tribukvy.ltd',    	  // Эстония ---
-        'NL': 'nl.tribukvy.ltd',  		  // Нидерланды
-        'FL': 'fi.tribukvy.ltd',  		  // Финляндия
-		'LV': 'lv.tribukvy.ltd',  		  // Латвия
-		'US': 'usa.tribukvy.ltd'  		  // США ---
+		'ltePL': 'tel.pl.tribukvy.ltd',      // Польша LTE
+		'lteFL': 'tel.fi.tribukvy.ltd',   	 // Финляндия LTE
+		'PL': 'pl.tribukvy.ltd',   		  	 // Польша
+		'DE': 'de.tribukvy.ltd',    	  	 // Германия
+		'RU': 'ru0.tribukvy.ltd',  		  	 // Россия
+		'EE': 'ee.tribukvy.ltd',    	 	 // Эстония ---
+        'NL': 'nl.tribukvy.ltd',  		 	 // Нидерланды
+        'FL': 'fi.tribukvy.ltd',  		 	 // Финляндия
+		'LV': 'lv.tribukvy.ltd',  		 	 // Латвия
+		'US': 'usa.tribukvy.ltd'  		 	 // США ---
     };
     
     const endpoint = serverMap[selectedServer] || 'pl.tribukvy.ltd';
@@ -77,8 +77,8 @@ function getConfigPrefix() {
     }
     
     const serverPrefixMap = {
-        'ltePL': 'ltep',
-		'lteFL': 'ltef',	
+        'ltePL': 'LTEp',
+		'lteFL': 'LTEf',	
 		'PL': 'pl',
         'DE': 'de',
         'RU': 'ru',
@@ -594,11 +594,11 @@ rules:
   
 - name: "[LTE] 🇵🇱 PL"
   <<: [ *warp-common, *awg ]
-  server: mpl.tribukvy.ltd
+  server: tel.pl.tribukvy.ltd
   port: 500
 - name: "[LTE] 🇫🇮 FI"
   <<: [ *warp-common, *awg ]
-  server: mfi.tribukvy.ltd
+  server: tel.fi.tribukvy.ltd
   port: 500`;
 			proxyg = `proxy-groups:
 - name: WARP + llimonix
@@ -779,11 +779,11 @@ proxies:
   
 - name: "[LTE] 🇵🇱 PL"
   <<: [ *warp-common ]
-  server: mpl.tribukvy.ltd
+  server: tel.pl.tribukvy.ltd
   port: 500
 - name: "[LTE] 🇫🇮 FI"
   <<: [ *warp-common ]
-  server: mfi.tribukvy.ltd
+  server: tel.fi.tribukvy.ltd
   port: 500`;
 			proxyg = `proxy-groups:
 - name: WARP + llimonix
