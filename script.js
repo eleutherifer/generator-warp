@@ -320,9 +320,9 @@ S1 = 0
 S2 = 0
 S3 = 0
 S4 = 0
-Jc = 3
-Jmin = 1
-Jmax = 3
+Jc = 4
+Jmin = 40
+Jmax = 70
 H1 = 1
 H2 = 2
 H3 = 3
@@ -399,9 +399,9 @@ S1 = 0
 S2 = 0
 S3 = 0
 S4 = 0
-Jc = 3
-Jmin = 1
-Jmax = 3
+Jc = 4
+Jmin = 40
+Jmax = 70 
 H1 = 1
 H2 = 2
 H3 = 3
@@ -477,9 +477,9 @@ S1 = 0
 S2 = 0
 S3 = 0
 S4 = 0
-Jc = 3
-Jmin = 1
-Jmax = 3
+Jc = 4
+Jmin = 40
+Jmax = 70
 H1 = 1
 H2 = 2
 H3 = 3
@@ -567,9 +567,9 @@ rules:
 		if (serversToggle.checked) {
 			awg = `awg: &awg
   amnezia-wg-option:
-   jc: 3
-   jmin: 1
-   jmax: 3
+   jc: 4
+   jmin: 40
+   jmax: 70
    s1: 0
    s2: 0
    h1: 1
@@ -652,9 +652,9 @@ proxies:
   server: 162.159.192.7
   port: 2408
   amnezia-wg-option:
-   jc: 3
-   jmin: 1
-   jmax: 3
+   jc: 4
+   jmin: 40
+   jmax: 70
    s1: 0
    s2: 0
    h1: 1
@@ -667,9 +667,9 @@ proxies:
   server: 162.159.192.7
   port: 2408
   amnezia-wg-option:
-   jc: 3
-   jmin: 1
-   jmax: 3
+   jc: 4
+   jmin: 40
+   jmax: 70
    s1: 0
    s2: 0
    h1: 1
@@ -682,9 +682,9 @@ proxies:
   server: 162.159.192.7
   port: 2408
   amnezia-wg-option:
-   jc: 3
-   jmin: 1
-   jmax: 3
+   jc: 4
+   jmin: 40
+   jmax: 70
    s1: 0
    s2: 0
    s3: 0
@@ -752,9 +752,9 @@ rules:
   remote-dns-resolve: true
   dns: [1.1.1.1, 1.0.0.1, 2606:4700:4700::1111, 2606:4700:4700::1001]
   amnezia-wg-option:
-   jc: 3
-   jmin: 1
-   jmax: 3
+   jc: 4
+   jmin: 40
+   jmax: 70
    s1: 0
    s2: 0
    s2: 0
@@ -909,9 +909,9 @@ S1 = 0
 S2 = 0
 S3 = 0
 S4 = 0
-Jc = 3
-Jmin = 1
-Jmax = 3
+Jc = 4
+Jmin = 40
+Jmax = 70
 H1 = 1
 H2 = 2
 H3 = 3
