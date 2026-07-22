@@ -401,7 +401,7 @@ S3 = 0
 S4 = 0
 Jc = 4
 Jmin = 40
-Jmax = 70 
+Jmax = 70
 H1 = 1
 H2 = 2
 H3 = 3
@@ -897,7 +897,7 @@ WireSock.addEventListener('click', async () => {
 
         const allowedIPs = getSelectedSites();
         const randomEndpoint = generateRandomEndpoint();
-        const domains = ['apteka.ru', 'www.pochta.ru', 'pochta.ru', 'psbank.ru', 'lenta.ru', 'rutube.ru', 'cbr.ru', 'cikrf.ru', 'mos.ru'];
+        const domains = ['apteka.ru', 'my.mail.ru', 'consultant.ru', 'profi.ru', 'autonews.ru'];
         const randomDomain = domains[Math.floor(Math.random() * domains.length)];
         
         const wireGuardText = `[Interface]
