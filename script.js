@@ -318,6 +318,8 @@ DNS = ${dns}
 MTU = 1280
 S1 = 0
 S2 = 0
+S3 = 0
+S4 = 0
 Jc = 4
 Jmin = 40
 Jmax = 70
@@ -395,6 +397,8 @@ DNS = ${dns}
 MTU = 1280
 S1 = 0
 S2 = 0
+S3 = 0
+S4 = 0
 Jc = 4
 Jmin = 40
 Jmax = 70
@@ -471,6 +475,8 @@ DNS = ${dns}
 MTU = 1280
 S1 = 0
 S2 = 0
+S3 = 0
+S4 = 0
 Jc = 4
 Jmin = 40
 Jmax = 70
@@ -566,6 +572,8 @@ rules:
    jmax: 70
    s1: 0
    s2: 0
+   s3: 0
+   s4: 0
    h1: 1
    h2: 2
    h3: 3
@@ -651,6 +659,8 @@ proxies:
    jmax: 70
    s1: 0
    s2: 0
+   s3: 0
+   s4: 0
    h1: 1
    h2: 2
    h3: 3
@@ -666,6 +676,8 @@ proxies:
    jmax: 70
    s1: 0
    s2: 0
+   s3: 0
+   s4: 0
    h1: 1
    h2: 2
    h3: 3
@@ -681,6 +693,8 @@ proxies:
    jmax: 70
    s1: 0
    s2: 0
+   s3: 0
+   s4: 0
    h1: 1
    h2: 2
    h3: 3
@@ -749,7 +763,7 @@ rules:
    jmax: 70
    s1: 0
    s2: 0
-   s2: 0
+   s3: 0
    s4: 0
    h1: 1
    h2: 2
@@ -899,6 +913,8 @@ DNS = ${dns}
 MTU = 1280
 S1 = 0
 S2 = 0
+S3 = 0
+S4 = 0
 Jc = 4
 Jmin = 40
 Jmax = 70
@@ -1480,7 +1496,7 @@ function updateMasqueUI() {
 			awg.style.marginTop = '15px';
         } else {
             ClashMASQUE.style.display = '';
-			Clash.textContent = 'AWG 1.5';
+			Clash.textContent = 'AWG 2.0';
 			containerClash.style.height = '160px';
 			wsc.style.marginTop = '-96px';
 			awg.style.marginTop = '35px';
